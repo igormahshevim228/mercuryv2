@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../CSS/LogIn.css" rel="stylesheet" />
+    <script src="../JS pages/LoginJS.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to our Website</h2>
+        <p>Please sign in to continue.</p>
+        <form class="login-form" id="login-form" action="MainPage.html" onsubmit="return  submitFun()">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" >
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" >
+            </div>
+            <input type="submit" value="Sign In" name="submit" id="submit"/>
+            <div class="back-button">
+
+                <a href="MainPage.html">Return to Main Page</a>
+            </div>
+            <div id="divMsg"> </div> <!-- Message will appear here -->
+        </form>
+
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+﻿body {
+   
+}
+.center {
+    max-width: 100%; /* To ensure images don't exceed their original size */
+    height: auto;
+}
+.logo {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+ 
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-collapse: collapse;
+    width: 60%;
+}
+td {
+    border: solid black;
+    
+}
+.valMsg {
+    color: red;
+}
+.logo-container {
+    width: 100%; /* Set an appropriate width */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .logo-container img {
+        max-width: 100%; /* Ensure the image doesn't overflow the container */
+    }
+
+
+.tbl {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin-top: 1rem;
+}
+
+    .tbl th, .tbl td {
+        border: 1px solid #ccc;
+        padding: 0.5rem;
+        text-align: left;
+    }
+
+    .tbl th {
+        background-color: #f2f2f2;
+    }
+
+    .tbl img {
+        max-width: 100px;
+        height: auto;
+    }
+
+    .tbl a {
+        text-decoration: none;
+        color: #007bff;
+    }
+
+        .tbl a:hover {
+            text-decoration: underline;
+        }
+		
+	@keyframes example {
+		from{
+		 transform: translateX(-1500px);
+		}
+     
+        to {
+		 transform: translateX(0);
+		}
+        }
+    .head{
+		animation-name:example;
+		animation-duration: 2s;
+		animation-timing-function: ease-in-out;
+		
+	}
+	.title{
+		animation-name:example;
+		animation-duration:1s;
+		animation-timing-function: ease-in-out;
+	}
+	@keyframes rotate {
+		from{
+			transform: rotate(0deg);
+		}
+		to{
+			transform: rotate(360deg);
+		}
+	}
+	.spin{
+		
+
+		animation-name:rotate;
+		animation-duration:12s;
+		animation-timing-function:linear;
+		animation-iteration-count:infinite;
+		transform-origin:center;
+	}
+	.arbit{
+		left:170px;
+		top:-120px;
+		animation-name:rotate;
+		animation-duration:3s;
+		animation-timing-function:linear;
+		animation-iteration-count:infinite;
+		transform-origin:top right
+		
+		
+	}
+	img{
+		position:relative;
+		left:px;
+		right:0px;
+		top:px;
+		
+   
+	}
+	.centering{
+		position:relative;
+		left:100px;
+
+	}
+
+	
+	
